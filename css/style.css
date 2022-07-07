@@ -1,0 +1,90 @@
+*,html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header, main,footer{
+    width: 1920px;
+    margin: auto;
+    background: #E5E5E5;
+}
+.black{
+    color: #000;
+}
+.white{
+    color: #fff;
+}
+.grey{
+    color: #333333
+}
+.nav-menu{
+    padding: 16px 737px;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.first-block{
+    background: #fff;
+    padding: 20px 405px;
+}
+.btn{
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 13px 26px;
+    background: none;
+}
+.box{
+    position: relative;
+    border-bottom: 1px solid #EFEFEF; 
+}
+.phone-box{
+    position: absolute;
+    bottom: 17px;
+    right: 0px;
+}
+.phone{ 
+    font-size: 16px;
+    margin-right: 40px;
+}
+.nav-menu-second{
+    padding: 30px 214px;
+}
+.second-item{
+    margin-right: 40px ;
+}
+.second-item a{
+    font-size: 16px;
+}
+.first-screen{
+    position: relative;
+    margin: auto;
+}
+.screen-content{
+    position:absolute;
+    top: 192px;
+    left: 405px;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+.screen-content p{
+    width: 308px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.screen-content .btn{
+    border: 2px solid #ffffff;
+    padding: 13px 60px;
+}
+li.last-item{
+    margin-right: 0;    
+}
