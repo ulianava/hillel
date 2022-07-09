@@ -11,28 +11,39 @@
     font-family: 'Roboto', sans-serif;
 }
 header,main,section,footer{
-    width: 1920px;
     margin: 0 auto;
     background: #E5E5E5;
 }
 .screen{
-    padding: 0 403px;
-    font-size: 0;
+    /* padding: 0 403px; */
+    width: 1110px;
+    margin: 0 auto;
     font-size: 0;
 }
 
 .nav-menu{
-    padding: 16px 733px;
+    padding: 16px 0;
+    width: 454px;
+    margin: 0 auto;
 }
+
 .nav-item{
     display: inline-block;
     margin-right: 30px;
 }
-
 .block{
-    padding: 20px 403px;
     border-bottom: 1px solid #EFEFEF; 
+
 }
+.test{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.box{
+    height: 120px;
+}
+
 .btn{
     border: 2px solid #F13C6E;
     border-radius: 40px;
@@ -40,17 +51,19 @@ header,main,section,footer{
     padding: 13px 26px;
     background: none;
 }
-.box{
-    position: relative;  
-}
+
 .second-block{
     border-bottom:none; 
-    padding: 30px 615px;
+    padding: 30px 0;
+}
+.nav-menu-second{
+    width: 690px;
+    margin: 0 auto;
+    height: 19px;
 }
 .phone-box{
-    position: absolute;
-    bottom: 17px;
-    right: 0px;
+    float: right;
+    padding: 20px 0;
 }
 .phone{ 
     font-size: 16px;
@@ -65,6 +78,7 @@ header,main,section,footer{
 .first-screen{
     position: relative;
     margin: auto;
+
 }
 .first-screen-img{
     width: 100%;
@@ -94,7 +108,7 @@ h1{
 }
 .card{
     position: relative;
-    width: 256px;
+    width: 255px;
     height: 363px;
     display: inline-block;
     margin-right: 30px ;
@@ -157,7 +171,7 @@ h1{
     bottom: 35px;
 }
 .promo-card{
-    width: 540px;
+    width: 538px;
     height: 212px;
     display: inline-block;
     vertical-align: middle;
@@ -193,10 +207,10 @@ p.second-content {
     padding-bottom:100px; 
 }
 .forth .sub-title{
-    padding-top: 80px ;
+    padding-top: 80px;
 }
 .impus-logo{
-    padding: 35px 63.4px;
+    padding: 35px 62.9px;
 }
 
 .input-promo-wrap .btn{
@@ -207,7 +221,10 @@ p.second-content {
     padding-top: 60px;
     padding-bottom: 60px;
     height: 373px;
-    border-bottom: 1px solid #EFEFEF;    
+ 
+}
+.box-line{
+    border-bottom: 1px solid #EFEFEF;   
 }
 .col{
     width: 255px;
