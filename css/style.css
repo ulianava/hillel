@@ -32,9 +32,9 @@ header,main,section,footer{
 }
 .block{
     border-bottom: 1px solid #EFEFEF; 
-
 }
-.test{
+
+.top{
     width: 1000px;
     margin: 0 auto;
     padding: 20px 0;
