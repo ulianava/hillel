@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
+    list-style: none;
 }
 
 .header{
     padding: 30px;
-    height: 350px;
+    height: 750px;
 }
 .col {   
     width: 255px;
     float: left;
-    height: 310px;
+    height: 700px;
     border: 1px solid grey;
 }
 .first{
@@ -26,7 +27,9 @@ h1{
     text-transform: uppercase;
     color: aquamarine;
 }
-
+.list-item{
+    height: 65px;
+}
 #list-item{
     color: blue;
 }
@@ -40,7 +43,7 @@ h1{
     border-bottom: 1px solid grey;
     padding-bottom: 5px;
 }
-.col.first li::before{
+.col.first li::after{
     content: "♥" ;
 }
 li a{
@@ -73,5 +76,9 @@ div>p{
     border-radius: 15px;
     width: 100px;
     padding: 15px;
+    margin-top: 15px;
 
+}
+.block{
+    padding: 30px;
 }
