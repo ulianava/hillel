@@ -4,26 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework </title>
+    <title>Selectors</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Homework </h1>
-    <nav>
-        <ul>
-            <li><a href="./pages/gallery.html">Gallery</a></li>
-        </ul>
-    </nav>
-    <h2>List of terminal commands </h2>
-    <ol>
-        <li>git commit -am ""</li>
-        <li>git push origin </li>
-        <li>git checkout -b </li>
-        <li>git add </li>
-        <li>git add -m</li>
-        <li>git diff </li>
-        <li>git stash </li>
-        <li>git pull </li>
-        <li>git push </li>
-    </ol>  
+    <div class="header">
+        <h1>Виды селекторов</h1>
+        <div class="col first">
+            <div class="wrap"> 
+                <h2>№</h2>
+                <ul>
+                    <li class="list-item">1</li>
+                    <li class="list-item">2</li>
+                    <li class="list-item first-class">3</li>
+                    <li class="list-item">4</li>
+                    <li class="list-item">5</li>
+                    <li class="list-item">6</li>
+                    <li class="list-item">7</li>
+                    <li class="list-item">8</li>
+                    <li class="list-item">9</li>
+                    <li class="list-item">10</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="wrap"> 
+                <h2>Тип</h2>
+                <ul>
+                    <li class="list-item">Универсальный селектор</li>
+                    <li class="list-item">По классу</li>
+                    <li class="list-item">По id</li>
+                    <li class="list-item">Вложенный</li>
+                    <li class="list-item second-item">Мультиклассы</li>
+                    <li class="list-item">Псевдоклас</li>
+                    <li class="list-item">Псевдоэлемент</li>
+                    <li class="list-item">По типу</li>
+                    <li class="list-item">обращение к следующему елементу</li>
+                    <li class="list-item">Селектор дочерних єлементов</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="wrap"> 
+                <h2>Пример</h2>
+                <ul>
+                    <li class="list-item">*{}</li>
+                    <li class="list-item">.class{}</li>
+                    <li  id="list-item">#id{}</li>
+                    <li class="list-item">li a{}</li>
+                    <li class="list-item first-class second-class">.class1.class2</li>
+                    <li class="list-item">:hover <a class="try-hover " href="#">Try hover</a></li>
+                    <li class="list-item">::before</li>
+                    <li class="list-item">h1{}</li>
+                    <li class="list-item">h2 + p</li>
+                    <li class="list-item">div>p</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <section class="block">
+        <h2> Тут ещё пример</h2>
+        <p>Тут пример: h2 ~ p</p>
+        <div class="example">
+            <p> пример div>p</p>
+        </div>
+    </section>
+
+
 </body>
 </html>
