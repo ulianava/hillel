@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+ 
+.menu{
+    padding-top: 79px;
+}
+
+.nav-item{
+    display: inline-block;
+    color: #000;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-right: 42px;
+    text-shadow: 0px 4px 25px #706b6b;    
+}
+
+.heading{
+    font-weight: 500;
+    font-size: 48px;
+    padding-top: 162px;
+    padding-bottom: 60px;
+}
+
+.wrapper{
+    padding-bottom: 141px;
+}
+.block{
+    padding-bottom: 65px;
+
+}
+.text{
+    width: 540px;
+}
+.set{
+    padding: 100px 0;
+}
+.btn{
+    text-transform: uppercase;
+    padding: 24px 40px;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+}
+.about-me-section{
+    padding: 112px 0 100px 0;
+}
+.section-heading{
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+.block-second{
+    text-align: center;
+    margin: auto;
+}
+.wrap{
+    background: url("../img/note.png") left no-repeat;
+    width: 141px;
+    margin-right: 45px;
+    display: inline-block;
+}
+.box{
+    padding-left: 70px;
+}
+.content-one{
+    font-weight: 500;
+    font-size: 21px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+.video-section{
+    padding-top: 57px;
+    height: 600px;
+}
+.credits{
+    padding: 50px 0;
+    margin: auto;
+}
+.footer-heading{
+    font-weight: 500;
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+.container.credits>p{
+    font-size: 14px;
+}
+.last-item{
+    margin-right: 0;
+}
+
+/* Colors */
+.bg-grey{
+    background: #EEEFF1;
+}
+.bg-blue{
+    background: #34547A;
+}
+
+.black{
+    color: #000;
+}
+.grey{
+    color: #727272;
+}
+.white{
+    color: #fff;
+}
+.bg-lightgrey{
+    background: #F9F9F9;
+}
+/* Псевдоклас */
+li a:hover{
+    color: #34547A;
+    text-shadow: 0px 4px 25px #34547A;
+
+}
