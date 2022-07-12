@@ -86,7 +86,6 @@
 }
 .video-section{
     padding-top: 57px;
-    height: 600px;
 }
 .credits{
     padding: 50px 0;
@@ -99,6 +98,10 @@
 }
 .container.credits>p{
     font-size: 14px;
+}
+iframe{
+    height: 600px;
+    width: 100%;
 }
 .last-item{
     margin-right: 0;
