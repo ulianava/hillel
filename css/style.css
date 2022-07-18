@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Graphik regular';
+    src: url('./fonts/GraphikLCG-Regular.eot');
+    src: url('./fonts/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/GraphikLCG-Regular.ttf') format('truetype'),
+        url('./fonts/GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('./fonts/GraphikLCG-Semibold.eot');
+    src: url('./fonts/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('./fonts/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/GraphikLCG-Semibold.ttf') format('truetype'),
+        url('./fonts/GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Graphik regular';
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+.btn-section{
+    font-size: 0;
+}
+header{ 
+    padding: 25px 51px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.logo{
+    height: 28px;
+    width: 130px;
+    margin-right: 51px;
+}
+.nav-section {
+    width: 592px;
+}
+.menu-item{
+    font-weight: 400;
+    padding: 8px 0 12px 0;
+}
+.btn{
+    font-family: 'Graphik';
+    font-size: 16px;
+    padding: 14px 36px;
+    text-align: center;
+    display: inline-block;
+}
+.second-btn{
+    padding: 15px 22px;
+}
+.first-btn{
+    border: 1px solid #808080;
+    margin-right: 10px;
+}
+#fisrt{
+    padding: 129px 0 169px 0;
+
+}
+.first-screen-content{
+    height: 610px;
+}
+.main-block{
+    font-size: 25px;
+    width: 471px;
+    padding: 51px 0;
+    line-height: 35px;
+}
+.first-screen-img{
+    padding-top: 22px;
+}
+.heading{
+    font-size: 65px;
+    line-height: 70px;
+    font-family: 'Graphik';
+    width: 552px;
+}
+.third-btn{
+    padding: 22px 42px;
+    margin-right: 10px;
+}
+.fourth-btn{
+    padding: 22px 29px;
+    margin-right: 0;
+}
+p.under-text{
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 25px;
+}
+#second{
+    background: #FF9C7D;
+}
+.second-heading{
+    font-family: 'Graphik';
+    font-size: 50px;
+    line-height: 60px;
+}
+.heading-block{  
+    width: 720px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 108px;
+    padding-bottom: 70px;
+}
+#third{
+    padding-top: 90px;
+}
+.container{
+    margin: 0 auto;
+    width: 1290px;
+}
+.third-head-block{
+    width: 493px;
+}
+.logo-section{
+    width: 1290px;
+    margin: 0 auto;
+    padding-bottom: 104px;
+}
+.section-content{
+    font-family: 'Graphik regular';
+    font-size: 20px;
+    line-height: 30px;
+    width: 491px;
+    padding: 30px 0;
+}
+.second-content{
+    width: 450px;
+    padding-bottom: 36px;
+}
+.third-content{
+    width: 520px;
+    padding-bottom: 35px;
+}
+.block-set{
+    padding-bottom: 250px;
+}
+.action-btn{
+    font-family: 'Graphik';
+    font-size: 20px;
+}
+.underlined{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.orangebtn{
+    background: #FF6336;
+    color: #fff;
+}

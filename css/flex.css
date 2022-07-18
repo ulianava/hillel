@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+}
+.jcb{
+    display: flex;
+    justify-content: space-between
+}
+.aic{
+    align-items: center;
+}
