@@ -8,3 +8,26 @@
 .aic{
     align-items: center;
 }
+.jca{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-wr{
+    flex-wrap: wrap;
+}
+.col-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-fs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.col-jcsb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
