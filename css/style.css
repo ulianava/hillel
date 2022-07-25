@@ -70,23 +70,22 @@ header{
 #fisrt{
     padding: 129px 0 169px 0;
 }
-.first-screen-content{
-    height: 610px;
-}
+
 .main-block{
     font-size: 25px;
-    width: 471px;
+    max-width: 471px;
     padding: 51px 0;
     line-height: 35px;
 }
 .first-screen-img{
     padding-top: 22px;
+    width: auto;
 }
 .heading{
     font-size: 65px;
     line-height: 70px;
     font-family: 'Graphik';
-    width: 552px;
+    max-width: 552px;
 }
 .third-btn{
     padding: 22px 42px;
@@ -105,12 +104,13 @@ p.under-text{
     background: #FF9C7D;
 }
 .second-heading{
+    text-align: center;
     font-family: 'Graphik';
     font-size: 50px;
     line-height: 60px;
 }
 .heading-block{  
-    width: 720px;
+    max-width: 720px;
     text-align: center;
     margin: 0 auto;
     padding-top: 108px;
@@ -121,13 +121,13 @@ p.under-text{
 }
 .container{
     margin: 0 auto;
-    width: 1290px;
+    width: auto;
 }
 .third-heading-block{
     width: 493px;
 }
 .logo-section{
-    width: 1290px;
+    width: 90%;
     margin: 0 auto;
     padding-bottom: 104px;
 }
@@ -166,8 +166,12 @@ p.under-text{
     padding-bottom: 147px;
 }
 .fourth-heading-block{
-    width: 890px;
+    width: auto;
     padding: 120px 0 79px 0;   
+}
+.block-four-wrap{
+    max-width: 1290px;
+    margin: 0 auto;
 }
 .dev-type{
     width: 330px;
@@ -214,7 +218,7 @@ p.under-text{
     padding: 83px 0 105px 0;
 }
 .sixth-section{
-    width: 920px;
+    max-width: 920px;
     line-height: 40px;
     font-size: 30px;
     padding-bottom: 23px;
@@ -355,4 +359,56 @@ ul.menu-fourth{
 .btn:hover{
     background: #c1b6e6;
     color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .first-screen-img{
+        max-width: 550px
+    }
+    /* .ld{
+        display: flex;
+        flex-direction: column;
+    }
+     */
+}
+/* 768-992px */
+@media screen and (max-width: 992px){
+
+    .sd-logo{
+        display: block;
+        width: 100%;
+    }
+    .sd{
+        display: flex;
+        flex-direction: column;
+    }
+    .sd-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+   .nav-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sm{
+        flex-direction: column;
+    }
+}
+/*576-768px */
+@media screen and (max-width: 768px) {
+    .sm{
+        flex-direction: column;
+    }
+}
+
+
+/* 0-576px */
+
+@media screen and (max-width: 576px) {
+    .btn{
+        width: 100%;
+    }
 }
