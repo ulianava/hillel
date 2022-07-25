@@ -1,0 +1,76 @@
+.wrap{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    animation: day 10s infinite;
+    background: lightblue;
+
+}
+.cloud-one{
+    width: 400px;
+    left: 0%;
+    position: fixed;
+    animation: cloudMove 10s infinite linear;
+}
+.cloud-two{
+    width: 400px;
+    position: fixed;
+    animation: cloudMoveReverse 10s infinite linear;
+}
+.kite{
+    position: fixed;
+    width: 200px;
+    left: 50%;
+    top: 25%;
+    animation: moveKite 3s linear infinite;
+}
+@keyframes moveKite{
+    0%{
+
+    }
+    25%{
+        left: 60%;
+        top: 35%;
+    }
+    50%{
+        left: 40%;
+        top: 55%;
+    }
+    75%{
+        left: 25%;
+        top: 35%;
+    }
+}
+@keyframes cloudMove{
+    0%{ 
+        left: 0%;
+
+    }
+    50%{
+        left: 50%
+
+    }
+    100%{
+        left: calc(100% - 400px);
+    }
+
+}
+@keyframes cloudMoveReverse{
+    0%{
+        left: calc(100% - 400px);
+    }
+    50%{
+        left: 50%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@keyframes day {
+    form{
+        background: lightblue;
+    }
+    to{
+        background: darkblue;
+    }
+}
