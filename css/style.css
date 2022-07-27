@@ -396,6 +396,10 @@ header{
     .nav-section{
         max-width: 400px;
     }
+    .sixth-section{
+        font-size: 25px;
+        max-width: 70vw;
+    }
 
 }
 /* фото не влазило */
@@ -478,6 +482,7 @@ header{
         flex-direction: column;
         align-items: center;
     }
+ 
 }
 /*576-768px */
 @media screen and (max-width: 814px) {
@@ -513,8 +518,9 @@ header{
     .col>ul{
         max-width: 150px;
     }
-    .sixth-section{
-        font-size: 25px;
+    
+    .col{
+        min-width: 25%;
     }
 }
 
@@ -574,9 +580,6 @@ header{
     .right-block{
         padding-top: 5%;
     }
-    img{
-        width: 90%;
-    }
     .heading, .second-heading{
         width: auto;
         font-size: 45px;
@@ -585,4 +588,9 @@ header{
         min-height: 250px;
     }
 }
+@media screen and (max-width:320px) {
+    img{width: 90%;}
+    
+}
+
 
