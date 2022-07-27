@@ -12,8 +12,13 @@
     display: flex;
     justify-content: space-around;
 }
+.jce{
+    display: flex;
+    justify-content: space-evenly;
+}
 .flex-wr{
     flex-wrap: wrap;
+    justify-content: center;
 }
 .col-c{
     display: flex;
