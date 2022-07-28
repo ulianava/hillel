@@ -1,76 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .wrap{
-    display: flex;
-    width: 100vw;
+    /* display: flex; */
+    width: 100%;
+    position: relative;
     height: 100vh;
-    animation: day 10s infinite;
-    background: lightblue;
+    overflow-x: hidden;
+}
+.road{
+    background: url(../img/road.jpg) repeat-x;
+    width: 600%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -20%;
+    bottom: 0;
+    animation: road 5s none linear infinite; 
+
 
 }
-.cloud-one{
-    width: 400px;
+.wheel{
+    animation: wheelRot 1s infinite running;
+    animation-delay: 0s;
+    position: absolute;
+}
+.car{
+    position: absolute;
+    bottom: 5%;
+
+}
+.one{
+    top: 68%;
     left: 0%;
-    position: fixed;
-    animation: cloudMove 10s infinite linear;
-}
-.cloud-two{
-    width: 400px;
-    position: fixed;
-    animation: cloudMoveReverse 10s infinite linear;
-}
-.kite{
-    position: fixed;
-    width: 200px;
-    left: 50%;
-    top: 25%;
-    animation: moveKite 3s linear infinite;
-}
-@keyframes moveKite{
-    0%{
 
+}
+.two{
+    top: 68%;
+    left: 65%;
+}
+.ride{
+    position: absolute;
+    left: calc(100% - 300px);
+    width: 290px;
+    height: 140px;
+    top: 750px;
+    animation: carRide 5s none infinite linear;
+
+}
+.siren{
+    position: absolute;
+    width: 25px;
+    border-radius: 50% 50% 0 0 ;
+    border: 1px solid black;
+    left: 22%;
+    height: 23px;
+    animation: siren 2s infinite;
+
+
+}
+
+@keyframes wheelRot {
+    0% {
+        transform: rotate(0deg);
     }
-    25%{
-        left: 60%;
-        top: 35%;
+    100% {
+        transform: rotate(360deg);
     }
+}
+@keyframes carRide{
+   49%{
+    transform: scaleX(1);
+    left: 10%;
+   }
+   50%{
+    transform: scaleX(-1);
+    left: 10%;
+   }
+   100%{
+    transform: scaleX(-1);
+   }
+}
+@keyframes road {
     50%{
-        left: 40%;
-        top: 55%;
-    }
-    75%{
-        left: 25%;
-        top: 35%;
-    }
-}
-@keyframes cloudMove{
-    0%{ 
-        left: 0%;
-
-    }
-    50%{
-        left: 50%
-
-    }
+        transform: translatex(200px);
+       }
     100%{
-        left: calc(100% - 400px);
-    }
-
-}
-@keyframes cloudMoveReverse{
-    0%{
-        left: calc(100% - 400px);
-    }
-    50%{
-        left: 50%;
-    }
-    100%{
-        left: 0%;
+        transform: translatex(-200px);
     }
 }
-@keyframes day {
-    form{
-        background: lightblue;
+@keyframes siren {
+    from {
+        background: red;
+        box-shadow: 0px 1px 10px 10px red;
     }
     to{
-        background: darkblue;
+        background: blue;
+        box-shadow:  0px 1px 15px 15px blue;
     }
 }
