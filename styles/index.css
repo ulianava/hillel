@@ -302,6 +302,15 @@ header .card-body a i {
   padding-top: 152px;
   padding-bottom: 18px;
 }
+.fifth .flip-card-wrap:hover {
+  transform: rotateY(180deg);
+  transition: 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+.fifth .front-side, .fifth .back-side {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
 .fifth .back-side-inner .skill-block-content {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -414,7 +423,7 @@ footer i:hover {
 }
 footer .credits {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 17px;
   line-height: normal;
   color: #040404;
@@ -438,15 +447,4 @@ footer .credits {
 
 .bg-light-grey {
   background: #fbfbfb;
-}
-
-.flip-card-wrap:hover {
-  transform: rotateY(180deg);
-  transition: 0.5s ease-in-out;
-  transform-style: preserve-3d;
-}
-
-.front-side, .back-side {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
 }/*# sourceMappingURL=index.css.map */

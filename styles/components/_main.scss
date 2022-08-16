@@ -251,6 +251,17 @@ header{
         padding-top: 152px;
         padding-bottom: 18px;
     }
+    
+    & .flip-card-wrap:hover{
+        transform: rotateY(180deg);
+        transition: 0.5s ease-in-out;
+        transform-style: preserve-3d;
+    }
+
+    & .front-side, .back-side{
+        backface-visibility: hidden;
+    }
+
     & .back-side-inner{
         & .skill-block-content {
             @include font-os(11px, 400, 20px);
@@ -354,9 +365,8 @@ footer{
         }
     }
     & .credits{
-        @include font-os (17px, 600, normal);
+        @include font-os (17px, 400, normal);
         color: #040404;
-
 
     }
 }
@@ -376,13 +386,4 @@ footer{
 }
 .bg-light-grey{
     background: #fbfbfb;
-}
-.flip-card-wrap:hover{
-    transform: rotateY(180deg);
-    transition: 0.5s ease-in-out;
-    transform-style: preserve-3d;
-}
-
-.front-side, .back-side{
-    backface-visibility: hidden;
 }
