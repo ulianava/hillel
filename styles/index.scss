@@ -1,2 +1,5 @@
 @import './bootstrap.min.css';
-@import './components/main';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+@import './components/variables',
+'./components/main';
