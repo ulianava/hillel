@@ -3,10 +3,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>buttons</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/02bea1b06a.js" crossorigin="anonymous"></script>
 </head>
-<body>
-
+<body> 
+  <div class="wrap">
+    <div class="container">
+      <!-- Buttons  -->
+      <div class="btn-group ">
+        <button class="btn-shadow">Button</button>
+        <button class="btn-shadow inset">Input</button>
+      </div>
+      <div class="col">
+        <!-- up/down buttons -->
+        <div class="btn-wrap">
+          <button class="btn-square ">
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <button class="btn-square">
+            <i class="fa-solid fa-angle-up"></i>
+          </button>
+        </div>
+        <!-- radio -->
+        <div class="radio">
+          <div class="radio_1">
+            <input type="radio" name="radio" value="radio-1" id="radio-1" >
+            <label for="radio-1"></label>
+          </div>
+          <div class="radio_2">
+            <input type="radio" name="radio" value="radio-2" id="radio-2" checked>
+            <label for="radio-2"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- share button -->
+      <div class="pill-btn-wrap">
+        <button class="pill-btn fce">
+          Share <i class="fa-solid fa-share-nodes"></i>
+        </button>
+      </div>
+      <!-- dropdown button -->
+      <div class="large-btn-wrap">
+        <button class="large-btn fce">
+          Dropdown <i class="fa-solid fa-angle-down"></i>
+        </button>
+      </div>
+        <!-- left/right buttons -->
+        <div class="btn-wrap">
+          <button class="btn-square ">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="btn-square">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+    </div>
+    <div class="container">
+      <div class="col">
+        <div class="container">
+        <!-- label button -->
+        <div class="pill-btn-wrap">
+          <button class="pill-btn fce">
+            Label <i class="fa-solid fa-location-dot"></i>
+          </button>
+        </div>
+          <!-- add user button -->
+          <div class="large-btn-wrap add-user-wrap">
+            <button class="large-btn fce">
+              <i class="fa-solid fa-user-plus"></i>
+              Add User 
+            </button>
+          </div>
+        </div>
+        <!-- search  -->
+        <div class="search-area">
+          <div class="input-search-wrap">
+            <input type="search" placeholder="Search for...">
+            <span class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+        </div> 
+      </div>
+      <!-- toogle -->
+     <div class="toogle">
+      <div class="toogle_1">
+        <input type="checkbox" id="toogle-box_1">
+        <label for="toogle-box_1"></label>
+      </div>
+      <div class="toogle_2">
+        <input type="checkbox" id="toogle-box_2" checked>
+        <label for="toogle-box_2"></label>
+      </div>
+    </div>
+    </div>
+  </div>
 </body>
 </html>
